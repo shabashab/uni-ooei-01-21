@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+<rdf:RDF
+        xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        xmlns:ex="http://www.example.org#">
+    <rdf:Description
+        rdf:about="https://amazon.com">
+        <ex:books>
+            <rdf:Bag>
+                <ex:book>
+                    <rdf:Description rdf:about="The Einstein Theory of Relativity">
+                        <ex:category>science</ex:category>
+                        <ex:author>Hendrik Antoon Lorentz</ex:author>
+                        <ex:rating>4</ex:rating>
+                        <ex:price>3.99</ex:price>
+                    </rdf:Description>
+                </ex:book>
+                <ex:book>
+                    <rdf:Description rdf:about="The Art of War">
+                        <ex:category>science</ex:category>
+                        <ex:author>Sun Tzu</ex:author>
+                        <ex:author>Linoel Giles</ex:author>
+                        <ex:rating>4</ex:rating>
+                        <ex:price>9.99</ex:price>
+                    </rdf:Description>
+                </ex:book>
+            </rdf:Bag>
+        </ex:books>
+    </rdf:Description>
+</rdf:RDF>
