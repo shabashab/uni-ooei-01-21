@@ -1,0 +1,31 @@
+{
+  "books": [
+    {
+      "title": "The Einstein Theory of Relativity",
+      "category": "science",
+      "authors": ["Hendrik Antoon Lorentz"],
+      "rating": 4,
+      "price": 3.99
+    },
+    {
+      "title": "The Art of War",
+      "category": "science",
+      "authors": ["Sun Tzu", "Lionel Giles"],
+      "rating": 4,
+      "price": 9.99
+    },
+    {
+      "title": "Cultural Atlas of Ancient Egypt",
+      "category": "history",
+      "authors": ["John Baines", "Jaromir Malek"],
+      "price": 23.99
+    },
+    {
+      "title": "XML in a Nutshell",
+      "category": "computers and internet",
+      "authors": ["Elliotte Rusty Harold", "W. Scott Means"],
+      "rating": 4,
+      "price": 39.95
+    }
+  ]
+}
