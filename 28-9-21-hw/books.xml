@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:ex="http://www.example.org#">
+  <rdf:Description rdf:about="Amazon">
+    <ex:books>
+      <rdf:Bag rdf:about="Books">
+        <ex:book>
+          <rdf:Description rdf:about="The Einstein Theory of Relativity">
+            <ex:category>science</ex:category>
+            <ex:author>Hendrik Antoon Lorentz</ex:author>
+            <ex:rating>4</ex:rating>
+            <ex:price>3.99</ex:price>
+          </rdf:Description>
+        </ex:book>
+        <ex:book>
+          <rdf:Description rdf:about="The Art of War">
+            <ex:category>science</ex:category>
+              <ex:author>Sun Tzu</ex:author>
+              <ex:author>Lionel Giles</ex:author>
+            <ex:rating>4</ex:rating>
+            <ex:price>9.99</ex:price>
+          </rdf:Description>
+        </ex:book>
+        <ex:book>
+          <rdf:Description rdf:about="Cultural Atlas of Ancient Egypt">
+            <ex:category>history</ex:category>
+              <ex:author>John Baines</ex:author>
+              <ex:author>Jaromir Malek</ex:author>
+            <ex:price>23.99</ex:price>
+          </rdf:Description>
+        </ex:book>
+        <ex:book>
+          <rdf:Description rdf:about="XML in a Nutshell">
+            <ex:category>computers and internet</ex:category>
+            <ex:author>Elliotte Rusty Harold</ex:author>
+            <ex:author>W. Scott Means</ex:author>
+            <ex:rating>4</ex:rating>
+            <ex:price>39.95</ex:price>
+          </rdf:Description>
+        </ex:book>
+      </rdf:Bag>
+    </ex:books>
+  </rdf:Description>
+</rdf:RDF>
