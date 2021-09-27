@@ -14,7 +14,10 @@
         <ex:book>
           <rdf:Description rdf:about="The Art of War">
             <ex:category>science</ex:category>
-            <ex:author>Sun Tzu</ex:author>
+            <ex:authors rdf:parseType="Collection">
+              <ex:author>Sun Tzu</ex:author>
+              <ex:author>Lionel Giles</ex:author>
+            </ex:authors>
             <ex:rating>4</ex:rating>
             <ex:price>9.99</ex:price>
           </rdf:Description>
