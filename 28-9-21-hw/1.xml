@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:ex="http://www.example.org#">
+  <rdf:Description rdf:about="Amazon">
+    <ex:books>
+      <rdf:Bag rdf:about="Books">
+        <ex:book>
+          <rdf:Description rdf:about="The Einstein Theory of Relativity">
+            <ex:category>science</ex:category>
+            <ex:author>Hendrik Antoon Lorentz</ex:author>
+            <ex:rating>4</ex:rating>
+            <ex:price>3.99</ex:price>
+          </rdf:Description>
+        </ex:book>
+        <ex:book>
+          <rdf:Description rdf:about="The Art of War">
+            <ex:category>science</ex:category>
+            <ex:author>Sun Tzu</ex:author>
+            <ex:rating>4</ex:rating>
+            <ex:price>9.99</ex:price>
+          </rdf:Description>
+        </ex:book>
+        <ex:book>
+          <rdf:Description rdf:about="Cultural Atlas of Ancient Egypt">
+            <ex:category>history</ex:category>
+            <ex:authorsList rdf:parseType="Collection">
+              <ex:author>John Baines</ex:author>
+              <ex:author>Jaromir Malek</ex:author>
+            </ex:authorsList>
+            <ex:price>23.99</ex:price>
+          </rdf:Description>
+        </ex:book>
+        <ex:book>
+          <rdf:Description rdf:about="XML in a Nutshell">
+            <ex:category>computers and internet</ex:category>
+            <ex:authorsList rdf:parseType="Collection">
+              <ex:author>Elliotte Rusty Harold</ex:author>
+              <ex:author>W. Scott Means</ex:author>
+            </ex:authorsList>
+            <ex:rating>4</ex:rating>
+            <ex:price>39.95</ex:price>
+          </rdf:Description>
+        </ex:book>
+      </rdf:Bag>
+    </ex:books>
+    <ex:software>
+      <rdf:Bag rdf:about="Software">
+        <ex:app>
+          <rdf:Description rdf:about="The Game of Science">
+            <ex:type>game</ex:type>
+            <ex:genre>survival</ex:genre>
+            <ex:rating>3.5</ex:rating>
+            <ex:developer>GD</ex:developer>
+          </rdf:Description>
+        </ex:app>
+        <ex:app>
+          <rdf:Description rdf:about="Smart Editor 2.0">
+            <ex:type>application</ex:type>
+            <ex:purpose>Office and development</ex:purpose>
+            <ex:rating>5</ex:rating>
+            <ex:developer>Missosoup</ex:developer>
+          </rdf:Description>
+        </ex:app>
+        <ex:app>
+          <rdf:Description rdf:about="Video Viewer PRO">
+            <ex:type>application</ex:type>
+            <ex:purpose>Entertainment</ex:purpose>
+            <ex:rating>5</ex:rating>
+            <ex:developer>WatchME</ex:developer>
+            <ex:price>9.95</ex:price>
+          </rdf:Description>
+        </ex:app>
+      </rdf:Bag>
+    </ex:software>
+  </rdf:Description>
+</rdf:RDF>
